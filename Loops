@@ -1,0 +1,23 @@
+<html>
+    <body>
+        <h1>Loops In JS</h1>
+        <p id="demo"></p>
+        <script>
+            var fruits = ["Nikhil", "Sharan", "Ayansh", "Jathin", "Debashish"];
+            // var text;
+            for (i = 0; i < fruits.length; i++){
+                var text = fruits[i] + "<br>";
+                //document.getElementById("demo").innerHTML = text;
+                document.write(text)
+            }
+            document.write("<br>")
+            var food = ["Pizza", "Burger", "Taco", "Burrito", "French Fries"];
+                // var text;
+                for (i = 0; i < food.length; i++) {
+                    var text1 = food[i] + "<br>";
+                    //document.getElementById("demo").innerHTML = text;
+                    document.write(text1)
+                }
+        </script>
+    </body>
+</html>
