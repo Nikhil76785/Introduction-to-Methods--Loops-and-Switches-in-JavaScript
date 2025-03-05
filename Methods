@@ -1,0 +1,20 @@
+<html>
+    <body>
+        <h1>Methods In JavaScript</h1>
+        <p>Basic Methods</p>
+        <script>
+            var str = "I aM NiKhIl";
+            document.write(str.toUpperCase());
+            document.write("<br>");
+            document.write(str.toLowerCase());
+            document.write("<br>");
+            document.write(str.startsWith('I'));
+
+            var str1 = "Banana";
+            var patt =  new RegExp("apple");
+            var res = patt.test(str1);
+            document.write("<br>");
+            document.write(res);
+        </script>
+    </body>
+</html>
