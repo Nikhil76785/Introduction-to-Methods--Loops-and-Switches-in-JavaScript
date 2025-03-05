@@ -1,0 +1,33 @@
+<html>
+<body>
+
+<h2>JavaScript Examples</h2>
+
+<p>Numbers 1 to 10:</p>
+<p id="numbers"></p>
+
+<p>Random Number (0-99):</p>
+<p id="random"></p>
+
+<p>Today's Date:</p>
+<p id="today"></p>
+
+<script>
+  // Numbers 1-10
+  var numbers = "";
+  for (let i = 1; i <= 10; i++) {
+    numbers += i + "<br>";
+  }
+  document.getElementById("numbers").innerHTML = numbers;
+
+  // Random number
+  var randomNumber = Math.floor(Math.random() * 100);
+  document.getElementById("random").innerHTML = "The random value is " + randomNumber;
+
+  // Today's date
+  var today = new Date();
+  document.getElementById("today").innerHTML = Date();
+</script>
+
+</body>
+</html>
